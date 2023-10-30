@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
   name: "FlexLayout",
+  platforms: [
+    .iOS(.v11)
+  ],
   products: [
     .library(name: "FlexLayout", targets: ["FlexLayout"]),
     .library(name: "FlexLayoutYoga", targets: ["FlexLayoutYoga"]),
